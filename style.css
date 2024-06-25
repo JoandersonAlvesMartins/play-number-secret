@@ -44,13 +44,13 @@ body::before {
 .container__conteudo {
     display: flex;
     align-items: center;
-    position: absolute;
+    position: relative;
     bottom: 0;
 }
 
 .container__informacoes {
     flex: 1;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .container__botao {
@@ -61,11 +61,11 @@ body::before {
     font-size: 24px;
     font-weight: 700;
     border: none;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .container__texto {
-    margin: 16px 0 16px 0;
+    margin: 20px 0 10px 0;
 }
 
 .container__texto-azul {
@@ -79,7 +79,7 @@ body::before {
     background-color: #FFF;
     border: none;
     color: #1875E8;
-    padding: 2rem;
+    padding: 1.5rem;
     font-size: 24px;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
@@ -87,18 +87,24 @@ body::before {
 
 .container__botoes {
     display: flex;
-    gap: 2em;
+    gap: 4em;
 }
 
 h1 {
     font-family: 'Chakra Petch', sans-serif;
-    font-size: 72px;
-    padding-bottom: 3rem;
+    font-size: 50px;
+    padding-bottom: 1.5rem;
+    text-align: center;
 }
 
-p,
+p {
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+}
+
 button {
     font-family: 'Inter', sans-serif;
+    text-align: center;
 }
 
 #erro {
@@ -109,8 +115,8 @@ button {
 }
 
 .texto__paragrafo {
-    font-size: 32px;
-    font-weight: 400;
+    font-size: 28px;
+    font-weight: 450;
 }
 
 button:disabled {
@@ -120,7 +126,7 @@ button:disabled {
 @media screen and (max-width: 1250px) {
 
     h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .container__botao {
@@ -142,6 +148,6 @@ button:disabled {
     }
 
     .container__informacoes {
-        padding: 1rem
+        padding: 0.5rem
     }
 }
